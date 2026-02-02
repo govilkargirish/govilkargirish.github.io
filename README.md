@@ -23,7 +23,7 @@ As you go through this setup, please find all the most up to date information in
 
 1. **Clone this repository**
    ```bash
-   git clone https://github.com/data-freelancer-mastermind/mkdocs-website-template.git
+   git clone https://github.com/govilkargirish/mkdocs-website-template.git
    cd mkdocs-website-template
    ```
 
@@ -64,7 +64,7 @@ https://docs.docker.com/get-started/get-docker/
 
 2. **Clone this repository**
    ```bash
-   git clone https://github.com/data-freelancer-mastermind/mkdocs-website-template.git
+   git clone https://github.com/govilkargirish/mkdocs-website-template.git
    cd mkdocs-website-template
    ```
 
@@ -124,3 +124,4 @@ I recommend publishing your site with GitHub Pages. If you want to keep your rep
 - [Icons and Emojis Reference](https://squidfunk.github.io/mkdocs-material/reference/icons-emojis/)
 - [Blog Setup Guide](https://squidfunk.github.io/mkdocs-material/blog/)
 - [Social Cards Configuration](https://squidfunk.github.io/mkdocs-material/plugins/requirements/image-processing/)
+
