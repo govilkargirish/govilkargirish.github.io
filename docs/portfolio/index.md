@@ -5,20 +5,26 @@ description: SkillEase is a data, analytics, and artificial intelligence company
 
 # Featured Projects
 
-Welcome to my portfolio of data science and AI projects. Each project demonstrates my expertise in delivering impactful solutions to real-world business challenges.
+Welcome to my portfolio of data and AI projects. Each project demonstrates my expertise in delivering impactful solutions to real-world business challenges.
 
 <div class="grid cards" markdown>
 
--   [AI Customer Care Bot for Dev X](projects/project-1.md)
+-   [Enterprise Data Analytics & ERP Modernization](projects/project-1.md)
 
     ---
 
-    An AI-powered chatbot solution for Dev X that enables customer service transformation, featuring Slack integration and sub-3 second response times. Built with OpenAI, Pinecone, and Azure cloud infrastructure to achieve 100% accuracy on initial datasets.
+    The organization relied on a legacy ERP (BST Enterprise) as the system of record for financials, projects, and operational analytics supporting thousands of capital projects globally.
 
--   [Enterprise Chatbot for Company Y](projects/project-2.md)
+-   [Supply Chain Analytics & Stock Replenishment Optimization](projects/project-2.md)
 
     ---
 
-    A private ChatGPT-like tool for the Company Y that revolutionizes mobility data analysis by combining structured SQL data with unstructured policy documents. Built with OpenAI and modern cloud architecture for comprehensive public sector policy evaluation.
+    The organization operated a complex global supply chain supporting critical oilfield operations across multiple continents, requiring precise inventory management for thousands of specialized parts and materials.
+
+-   [Enterprise HR Analytics & Data Warehouse Modernization](projects/project-3.md)
+
+    ---
+
+    The organization managed a global workforce of 150,000+ employees across multiple geographic regions, each maintaining separate HR systems for different functions.
 
 </div>
