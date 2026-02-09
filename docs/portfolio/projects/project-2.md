@@ -1,5 +1,5 @@
 ---
-title: Supply Chain Analytics & Stock Replenishment Optimization for Global Oil & Gas Services
+title: Supply Chain Analytics with Data Engineering & Stock Replenishment Optimization for Global Oil & Gas Services
 description: A global Oil & Gas Service company operate a complex global supply chain supporting critical oilfield operations across multiple continents, requiring precise inventory management for thousands of specialized parts and materials.
 
 ---
@@ -72,27 +72,6 @@ Delivered a **modern ETL framework and data platform** that unified fragmented s
   - **SWPS:** Regional warehouse management (real-time)  
   - **SAP:** European operations (daily batch)  
   - **Legacy systems:** Custom databases at remote locations (varied schedules)  
-<!-- 
-**Staged Data Processing:**  
-```
-[Source Systems Layer] - 15+ Regional Systems
-↓
-[Staging Database] - Raw data ingestion
-├── Data format standardization
-├── Initial validation checks
-└── Temporary storage with audit logs
-↓
-[Integration Database] - Normalized data model
-├── Master data consolidation (materials, suppliers, locations)
-├── Transactional data integration (orders, receipts, shipments)
-└── Historical data preservation
-↓
-[Analytical Layer] - Stock Replenishment Engine
-├── Demand forecasting calculations
-├── Safety stock optimization
-├── Replenishment recommendation algorithms
-└── Performance metrics and KPIs
-``` -->
 
 ### **2. Advanced ETL Framework Development**  
 

@@ -45,23 +45,23 @@ You're **one strategic call** away from catching up—and pulling ahead.
 
 ---
 
-## 🎯 Does This Sound Familiar?
+## Does This Sound Familiar?
 
 <div class="pain-points" markdown>
 
-**😤 "Our reports take 3 days... decisions are already made"**  
+**"Our reports take 3 days... decisions are already made"**  
 → Near real-time analytics in **minutes, not days**
 
-**😤 "Drowning in data but starving for insights"**  
+**"Drowning in data but starving for insights"**  
 → Automated platforms that free analysts for **strategic work**
 
-**😤 "Everyone talks AI, but we don't have clean data"**  
+**"Everyone talks AI, but we don't have clean data"**  
 → Practical AI roadmap built on **solid foundations**
 
-**😤 "Our legacy MSBI is bleeding money"**  
+**"Our legacy MSBI is bleeding money"**  
 → **25% cost reduction** + 10x faster performance
 
-**😤 "AI pilots never make it to production"**  
+**"AI pilots never make it to production"**  
 → **POC to production in 90 days**
 
 </div>
@@ -72,7 +72,7 @@ You're **one strategic call** away from catching up—and pulling ahead.
 
 <!-- ---
 
-## 📊 Real Results from Real Companies
+## Real Results from Real Companies
 
 <div class="results-grid" markdown>
 
@@ -94,7 +94,7 @@ Result: **80% time savings** + ML predictions
 
 ---
 
-## 💰 Quick ROI Reality Check
+## Quick ROI Reality Check
 
 **Ask yourself:**
 - Hours/week on manual reporting? (Most say: 10-20)
@@ -112,7 +112,7 @@ Result: **80% time savings** + ML predictions
 
 ---
 
-## 👨‍💻 About Me
+## About Me
 
 Hi! I'm **Girish Govilkar**, a Microsoft Certified Data & AI Specialist from Canada.
 
@@ -134,7 +134,7 @@ I help enterprises transform slow, fragmented data environments into **intellige
 <!-- 
 ---
 
-## 💬 What Clients Say
+## What Clients Say
 
 > *"Girish delivered a modern platform that's cheaper, faster, and scales with our growth. **ROI achieved in 8 months.**"*  
 > — CTO, E-Commerce Company
@@ -147,7 +147,7 @@ I help enterprises transform slow, fragmented data environments into **intellige
 
 ---
 
-## ⏰ What Happens Next?
+## What Happens Next?
 
 **Your roadmap to modern data:**
 
@@ -160,7 +160,7 @@ I help enterprises transform slow, fragmented data environments into **intellige
 
 ---
 
-## 🚀 Ready to Transform Your Data Platform?
+## Ready to Transform Your Data Platform?
 
 **I only take on 3 new clients per quarter** to ensure exceptional results.
 
@@ -170,7 +170,7 @@ I help enterprises transform slow, fragmented data environments into **intellige
 
 ---
 
-## ❓ Quick FAQ
+## Quick FAQ
 
 **How fast can you start?**  
 New projects typically begin within 1-2 weeks.

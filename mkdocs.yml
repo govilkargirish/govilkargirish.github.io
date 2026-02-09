@@ -11,6 +11,7 @@ nav:
       - portfolio/projects/project-1.md
       - portfolio/projects/project-2.md
       - portfolio/projects/project-3.md
+  - Book Your Free 15-Min Free Intro Call : https://cal.com/girish-govilkar/introduction-call
   # - Blog:
   #   - blog/index.md 
 
@@ -101,6 +102,9 @@ extra_javascript:
 
 # extra_files:
 #   - docs/robots.txt
+
+extra_javascript:
+  - javascripts/external-links.js
 
 copyright: |
   &copy; 2026 <a href="https://www.linkedin.com" target="_blank" rel="noopener">Girish Govilkar</a>. All rights reserved.

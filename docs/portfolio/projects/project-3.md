@@ -153,44 +153,6 @@ Delivered an **enterprise-grade data warehouse solution** that unified fragmente
 ### **Architecture Highlights**  
 ![HR Architecture](../../assets/Human-Resource-Transformation.png){ .full-width }  
 
-<!-- ```
-[HR Systems Layer]
-├── Core HR System → Employee Master Data
-├── Payroll System → Compensation & Benefits
-├── Performance Mgmt → Ratings & Reviews
-├── Attrition System → Exits & Reasons
-├── Time & Attendance → Working Hours
-└── Learning Mgmt → Training & Skills
-
-↓ [SSIS ETL Pipelines]
-
-[Staging Layer - SQL Server]
-├── Data Validation & Cleansing
-├── Format Standardization
-└── Error Logging & Handling
-
-↓ [Transform & Load]
-
-[Data Warehouse - SQL Server]
-├── Dimension Tables
-│   ├── DimEmployee (SCD Type 2)
-│   ├── DimOrganization
-│   ├── DimTime
-│   └── DimSkills
-└── Fact Tables
-    ├── FactHeadcount (monthly snapshots)
-    ├── FactPayroll (by pay period)
-    ├── FactPerformance (review cycles)
-    └── FactAttrition (exit events)
-
-↓ [Reporting Layer]
-
-[Analytics & BI - SSRS]
-├── Executive Dashboards
-├── Operational Reports
-├── Compliance Reports
-└── Ad-hoc Query Tools
-``` -->
 
 ### **Key Technical Implementations**  
 

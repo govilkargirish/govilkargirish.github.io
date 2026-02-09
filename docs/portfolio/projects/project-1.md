@@ -1,9 +1,9 @@
 ---
-title: Enterprise Data Analytics & ERP Modernization for Global Engineering Organization
+title: Enterprise Data Migration, Data Analytics & ERP Modernization for Global Engineering Organization
 description: A global engineering, construction, and environmental consulting firm operated a legacy ERP (BST Enterprise) that acted as the primary system of record for financials, projects, and operational analytics across thousands of capital projects.
 ---
 
-# Enterprise Data Analytics & ERP Modernization for Global Engineering Organization
+# Enterprise Data Migration, Data Analytics & ERP Modernization for Global Engineering Organization
 
 !!! abstract "Case Study Summary"
     **Client**: Global Engineering & Construction Organization  
