@@ -1,6 +1,7 @@
 site_name: Girish Govilkar
 site_description: Microsoft Certified Data & AI specialist helping enterprises modernize data platforms, operationalize AI, and achieve measurable ROI in 90 days.
-site_url: https://govilkargirish.github.io/ #https://www.girishgovilkar.com/
+site_url: https://www.girishgovilkar.com/
+#https://govilkargirish.github.io/ #https://www.girishgovilkar.com/
 use_directory_urls: false
 
 nav:
