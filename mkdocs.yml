@@ -5,17 +5,15 @@ site_url: https://www.girishgovilkar.com/
 use_directory_urls: false
 
 nav:
-  - Home:
-    - About: index.md
+  - Home: index.md
+  - Services: services.md
   - Case Studies:
     - Overview: portfolio/index.md
     - Projects:
-      - portfolio/projects/project-1.md
-      - portfolio/projects/project-2.md
-      - portfolio/projects/project-3.md
-  - Book Your Free 15-Min Free Intro Call : https://cal.com/girish-govilkar/introduction-call
-  # - Blog:
-  #   - blog/index.md 
+      - Enterprise Data Migration: portfolio/projects/project-1.md
+      - Supply Chain Analytics: portfolio/projects/project-2.md
+      - Enterprise HR Analytics: portfolio/projects/project-3.md
+  - Book a Call: https://cal.com/girish-govilkar/introduction-call
 
 theme:
   name: material

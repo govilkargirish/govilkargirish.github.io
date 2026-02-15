@@ -8,7 +8,7 @@ description: A global engineering, construction, and environmental consulting fi
 !!! abstract "Case Study Summary"
     **Client**: Global Engineering & Construction Organization  
     **Industry**: Engineering, Construction & Environmental Consulting  
-    **Engagement Duration**: 7.5 Years  
+    **Engagement Duration**: 12+ Months 
     **Role**: Data Architect / Analytics Manager  
     **Team Size**: 8–10 (Data Engineers, BI Developers, Application Support)     
     <!-- **Website**: [devx.com](https://devx.com)   -->
@@ -169,6 +169,6 @@ Delivered a data-analytics–first ownership model across the ERP ecosystem, str
     
     Want to see if we're a match? Let's have a chat and find out. Schedule a free 30-minute strategy session to discuss your Data & AI challenges and explore how we can work together.
 
-    [Book Free Intro Call :material-arrow-top-right:](https://cal.com/girish-govilkar/introduction-call){ .md-button .md-button--primary }
+    [Book Free Intro Call :material-arrow-top-right:](https://cal.com/girish-govilkar/introduction-call){ .md-button .md-button--primary  target="_blank"  }
 
 </div>

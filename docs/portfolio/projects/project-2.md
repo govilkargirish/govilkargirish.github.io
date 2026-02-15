@@ -7,7 +7,7 @@ description: A global Oil & Gas Service company operate a complex global supply 
 # Supply Chain Analytics & Stock Replenishment Optimization for Global Oil & Gas Services
 
 !!! abstract "Case Study Summary" 
-    **Client:** Global Oil & Gas Technology & Services Organization  
+    **Client:** Global Oil & Gas Services Organization
     **Industry:** Oil & Gas Services, Energy Technology  
     **Engagement Duration:** 12+ Months  
     **Role:** Senior ETL Developer  
