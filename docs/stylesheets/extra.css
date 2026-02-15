@@ -1,57 +1,324 @@
+/* ============================================
+   MODERN PORTFOLIO THEME
+   ============================================ */
+
 /* Light theme custom colors */
 [data-md-color-scheme="default"] {
-  --md-primary-fg-color: #333a9a;
-  --md-accent-fg-color: #2856f7;
-  --md-typeset-a-color: var(--md-accent-fg-color);
-  --md-footer-bg-color: var(--md-primary-fg-color);
+  --md-primary-fg-color: #1a237e;
+  --md-primary-fg-color--light: #3949ab;
+  --md-primary-fg-color--dark: #0d47a1;
+  --md-accent-fg-color: #2979ff;
+  --md-typeset-a-color: #1976d2;
+  --md-footer-bg-color: #1a237e;
+  --md-default-fg-color: #37474f;
+  --md-code-bg-color: #f5f5f5;
 }
 
 /* Dark theme custom colors */
 [data-md-color-scheme="slate"] {
-  --md-primary-fg-color: #000111;
-  --md-default-bg-color: #090d1d;
-  --md-accent-fg-color: #8e92f8;
-  --md-typeset-a-color: var(--md-accent-fg-color);
+  --md-primary-fg-color: #0a0e27;
+  --md-primary-fg-color--light: #1a1f3a;
+  --md-default-bg-color: #0d1117;
+  --md-default-bg-color--light: #161b22;
+  --md-accent-fg-color: #6c8aff;
+  --md-typeset-a-color: #58a6ff;
+  --md-code-bg-color: #161b22;
 }
 
-/* Dark Theme Custom Button */
-[data-md-color-scheme="slate"] .md-button {
+/* ============================================
+   TYPOGRAPHY ENHANCEMENTS
+   ============================================ */
+
+/* Improved heading hierarchy */
+.md-typeset h1 {
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  margin-top: 0;
+  color: var(--md-primary-fg-color);
+}
+
+.md-typeset h2 {
+  font-weight: 600;
+  border-bottom: 2px solid var(--md-accent-fg-color);
+  padding-bottom: 0.5rem;
+  margin-top: 2.5rem;
+}
+
+.md-typeset h3 {
+  font-weight: 600;
+  color: var(--md-accent-fg-color);
+}
+
+/* Better paragraph spacing */
+.md-typeset p {
+  line-height: 1.7;
+  margin-bottom: 1rem;
+}
+
+/* Enhanced link styling */
+.md-typeset a {
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: all 0.2s ease;
+}
+
+.md-typeset a:hover {
+  border-bottom-color: var(--md-accent-fg-color);
+  color: var(--md-accent-fg-color);
+}
+
+/* ============================================
+   BUTTON STYLING
+   ============================================ */
+
+/* Primary buttons */
+.md-button {
+  font-weight: 600;
+  padding: 0.625rem 1.5rem;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.md-button--primary {
+  background-color: var(--md-accent-fg-color);
+  color: white;
+  border: 2px solid var(--md-accent-fg-color);
+}
+
+.md-button--primary:hover {
+  background-color: transparent;
+  color: var(--md-accent-fg-color);
+  box-shadow: 0 4px 12px rgba(41, 121, 255, 0.3);
+  transform: translateY(-2px);
+}
+
+/* Dark theme button adjustments */
+[data-md-color-scheme="slate"] .md-button--primary {
   background-color: var(--md-accent-fg-color);
   border-color: var(--md-accent-fg-color);
+  color: #0d1117;
 }
 
-/* Optional: Custom hover effects */
-[data-md-color-scheme="slate"] .md-button:hover {
-  background-color: #ffffff;
-  border-color: #ffffff;
-  color: #000000;
+[data-md-color-scheme="slate"] .md-button--primary:hover {
+  background-color: transparent;
+  color: var(--md-accent-fg-color);
+  box-shadow: 0 4px 12px rgba(108, 138, 255, 0.4);
 }
 
-/* Footer Section */
-.md-footer {
-  background-color: #090d1d;
+/* ============================================
+   CARDS & CONTENT BLOCKS
+   ============================================ */
+
+/* Enhanced admonitions/callouts */
+.md-typeset .admonition {
+  border-left: 4px solid var(--md-accent-fg-color);
+  border-radius: 6px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  margin: 1.5rem 0;
 }
 
-.md-footer-meta {
-  background-color: #000111;
+/* Grid cards styling */
+.md-typeset .grid.cards > * {
+  border-radius: 8px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease;
+  padding: 1.5rem;
 }
 
-/* Testimonial cards */
+.md-typeset .grid.cards > *:hover {
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+  transform: translateY(-4px);
+}
+
+[data-md-color-scheme="slate"] .md-typeset .grid.cards > * {
+  background-color: var(--md-default-bg-color--light);
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.3);
+}
+
+[data-md-color-scheme="slate"] .md-typeset .grid.cards > *:hover {
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.5);
+}
+
+/* ============================================
+   TESTIMONIALS
+   ============================================ */
+
 .grid.cards.testimonials {
-    grid-template-columns: 1fr !important;
-    gap: 1.5rem;
-    margin: 1rem 0;
+  grid-template-columns: 1fr !important;
+  gap: 2rem;
+  margin: 2rem 0;
 }
 
 .grid.cards.testimonials > * {
-    margin-top: 0 !important;
+  margin-top: 0 !important;
+  position: relative;
+  padding: 2rem;
+  background: linear-gradient(135deg, rgba(41, 121, 255, 0.05) 0%, transparent 100%);
 }
 
-/* Style the author name and title */
+[data-md-color-scheme="slate"] .grid.cards.testimonials > * {
+  background: linear-gradient(135deg, rgba(108, 138, 255, 0.08) 0%, transparent 100%);
+}
+
+/* Quotation mark decoration */
+.grid.cards.testimonials > *::before {
+  content: '"';
+  font-size: 4rem;
+  line-height: 1;
+  color: var(--md-accent-fg-color);
+  opacity: 0.2;
+  position: absolute;
+  top: 1rem;
+  left: 1.5rem;
+  font-family: Georgia, serif;
+}
+
+/* Author styling */
 .grid.cards.testimonials p:nth-child(2) {
-    margin-top: -0.5rem;
-    color: var(--md-default-fg-color--light);
-    font-size: 0.9rem;
+  margin-top: 0.5rem;
+  color: var(--md-default-fg-color--light);
+  font-size: 0.9rem;
+  font-weight: 500;
+  font-style: italic;
 }
 
+/* ============================================
+   HEADER & NAVIGATION
+   ============================================ */
 
+/* Header styling */
+.md-header {
+  background-color: var(--md-primary-fg-color);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.md-header__title {
+  font-weight: 600;
+}
+
+/* Navigation tabs */
+.md-tabs {
+  background-color: var(--md-primary-fg-color--light);
+}
+
+/* ============================================
+   FOOTER
+   ============================================ */
+
+.md-footer {
+  background: linear-gradient(180deg, var(--md-primary-fg-color--light) 0%, var(--md-primary-fg-color--dark) 100%);
+  margin-top: 4rem;
+}
+
+.md-footer-meta {
+  background-color: var(--md-primary-fg-color--dark);
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+[data-md-color-scheme="slate"] .md-footer {
+  background: linear-gradient(180deg, #1a1f3a 0%, #0a0e27 100%);
+}
+
+[data-md-color-scheme="slate"] .md-footer-meta {
+  background-color: #0a0e27;
+}
+
+/* ============================================
+   CODE BLOCKS
+   ============================================ */
+
+.md-typeset code {
+  background-color: var(--md-code-bg-color);
+  padding: 0.2em 0.4em;
+  border-radius: 4px;
+  font-size: 0.9em;
+}
+
+.md-typeset pre {
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+[data-md-color-scheme="slate"] .md-typeset pre {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
+}
+
+/* ============================================
+   TABLES
+   ============================================ */
+
+.md-typeset table:not([class]) {
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.md-typeset table:not([class]) th {
+  background-color: var(--md-primary-fg-color);
+  color: white;
+  font-weight: 600;
+}
+
+/* ============================================
+   HERO SECTION (for homepage)
+   ============================================ */
+
+.md-typeset .hero {
+  text-align: center;
+  padding: 3rem 1rem;
+  margin: 2rem 0;
+  background: linear-gradient(135deg, rgba(41, 121, 255, 0.05) 0%, rgba(41, 121, 255, 0.1) 100%);
+  border-radius: 12px;
+}
+
+[data-md-color-scheme="slate"] .md-typeset .hero {
+  background: linear-gradient(135deg, rgba(108, 138, 255, 0.08) 0%, rgba(108, 138, 255, 0.15) 100%);
+}
+
+/* ============================================
+   RESPONSIVE DESIGN
+   ============================================ */
+
+@media screen and (max-width: 768px) {
+  .md-typeset h1 {
+    font-size: 1.8rem;
+  }
+  
+  .md-typeset h2 {
+    font-size: 1.4rem;
+  }
+  
+  .grid.cards.testimonials > *::before {
+    font-size: 3rem;
+  }
+}
+
+/* ============================================
+   UTILITY CLASSES
+   ============================================ */
+
+/* Text alignment */
+.text-center {
+  text-align: center;
+}
+
+/* Spacing utilities */
+.mt-2 {
+  margin-top: 2rem;
+}
+
+.mb-2 {
+  margin-bottom: 2rem;
+}
+
+/* Highlight text */
+.highlight {
+  background: linear-gradient(120deg, rgba(41, 121, 255, 0.2) 0%, rgba(41, 121, 255, 0.1) 100%);
+  padding: 0.2em 0.4em;
+  border-radius: 4px;
+}
+
+[data-md-color-scheme="slate"] .highlight {
+  background: linear-gradient(120deg, rgba(108, 138, 255, 0.25) 0%, rgba(108, 138, 255, 0.15) 100%);
+}
