@@ -15,8 +15,8 @@ Every project tells a story of transformation. Here are detailed accounts of how
     ### Enterprise Data Migration & ERP Modernization
     
     **Industry:** Engineering & Construction  
-    **Challenge:** Legacy MSBI stack, 2-day reporting cycles, high infrastructure costs  
-    **Solution:** Microsoft Fabric migration with real-time pipelines  
+    **Challenge:** 2-day reporting cycles, High infrastructure costs, Multiple unused reports.  
+    **Solution:** Optimized SSRS Reports, Data Conversion from legacy system to Enterprise ERP Tool.
     
     **Results:**  
     - 1.2TB+ data migrated to cloud  
@@ -25,7 +25,7 @@ Every project tells a story of transformation. Here are detailed accounts of how
     - Real-time operational dashboards  
     
     **Timeline:** 12+ Months  
-    **Technologies:** Azure SQL, ADF, Power BI, Azure DevOps
+    **Technologies:** Azure SQL, ADF, SSIS, SSRS, BST, Power BI, Azure DevOps
     
     [Read full case study →](projects/project-1.md)
 
@@ -35,7 +35,7 @@ Every project tells a story of transformation. Here are detailed accounts of how
     
     **Industry:** Oil & Gas Services  
     **Challenge:** Manual forecasting, inventory gaps, supply chain visibility  
-    **Solution:** Automated analytics with ML-powered optimization  
+    **Solution:** Automated analytics with Data-powered optimization  
     
     **Results:**  
     - $2M+ annual cost savings  
